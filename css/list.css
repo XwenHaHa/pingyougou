@@ -1,0 +1,134 @@
+/* 列表页的css */
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+
+.sk-list {
+    float: left;
+}
+
+.sk-list ul li {
+    float: left;
+}
+
+.sk-list ul li a {
+    display: block;
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 29px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.sk-con {
+    float: left;
+}
+
+.sk-con ul li {
+    float: left;
+}
+
+.sk-con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 23px;
+    font-size: 14px;
+}
+
+.sk-con ul li:last-child {
+    position: relative;
+}
+
+.sk-con ul li:last-child a::after {
+    content: '\ea51';
+    position: absolute;
+    top: -3px;
+    right: 0;
+    font-family: 'icomoon';
+    font-size: 20px;
+}
+
+.sk-bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.sk-bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk-bd ul li:hover {
+    border: 1px solid #e60012;
+}
+
+.phone {
+    padding: 2px 0;
+}
+
+.sk-bd ul li p {
+    font-size: 14px;
+    color: #808080;
+}
+
+.xinagqing {
+    padding-left: 12px;
+}
+
+.price {
+    overflow: hidden;
+}
+
+.origin {
+    float: left;
+    margin-right: 8px;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.present a {
+    float: left;
+    padding-top: 7px;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #bbbbbb;
+}
+
+.stock {
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+}
+
+.stock-left {
+    float: left;
+}
+
+.stock img {
+    float: left;
+    margin: 14px 12px;
+}
+
+.stock-right {
+    float: left;
+}
+
+.qianggou {
+    height: 50px;
+    background-color: #b1191a;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}

@@ -185,9 +185,11 @@
     line-height: 31px;
     margin-left: 2px;
     padding-left: 10px;
+    transition: all 0.5s;
 }
 
 .nav .dropdown .dd ul li:hover {
+    padding-left: 20px;
     background-color: #fff;
 }
 
